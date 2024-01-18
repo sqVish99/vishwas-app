@@ -5,13 +5,31 @@
     align-items: center;
 }
 
-.header-content{
+.header-content {
+    width: 100%;
     display: flex;
     padding: 0 0.75rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header-content p{
+.mobile-menu-toggle {
+    font-size: 1.5rem;
     color: #fff;
-    font-size: large;
+    cursor: pointer;
+    display: none;
+}
+
+.resume-link {
+    color: #fff;
+    text-decoration: none;
     font-weight: bold;
+    padding: 0.5rem;
+}
+
+/* Media Query for Mobile View */
+@media only screen and (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
 }

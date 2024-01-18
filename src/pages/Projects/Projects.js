@@ -3,7 +3,10 @@ import './Projects.css';
 
 const Projects = () => (
   <section id="projects">
-    <h2>Projects</h2>
+    <div className="container">
+    <h1>Projects</h1>
+    <p>Here are my projects</p>
+    </div>
   </section>
 );
 
