@@ -1,0 +1,19 @@
+.portfolio-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-nav li {
+    padding: 0.5rem;
+}
+
+.portfolio-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.portfolio-nav a:hover {
+    color: #ff9900;
+}

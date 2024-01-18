@@ -1,0 +1,17 @@
+.portfolio-header {
+    height: 3rem;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    padding: 0 0.75rem;
+}
+
+.header-content p{
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
