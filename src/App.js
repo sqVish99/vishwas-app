@@ -7,7 +7,7 @@ import Projects from './pages/Projects/Projects';
 import Journey from './pages/Journey/Journey';
 
 const App = () => (
-  <Router>
+  <Router basename='vishwas-app'>
     <Header />
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
