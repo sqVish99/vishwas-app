@@ -1,0 +1,12 @@
+.vertical-timeline-element-title {
+    color: darkgray;
+}
+
+.vertical-timeline-element-content p{
+    color: darkgray;
+    font-weight: bold;
+}
+
+.vertical-timeline-element-date {
+    color: darkgray;
+}

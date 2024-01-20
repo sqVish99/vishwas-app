@@ -1,0 +1,12 @@
+.journey-map {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 90%;
+    padding: 1rem;
+}
+
+.journey-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

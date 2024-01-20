@@ -10,10 +10,10 @@ const App = () => (
   <Router basename='vishwas-app'>
     <Header />
     <Routes>
-      <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
       <Route path="/journey" element={<Journey />} />
       <Route path="/projects" element={<Projects />} />
+      <Route path="*" element={<Navigate to="/home" />} />
     </Routes>
   </Router>
 );
