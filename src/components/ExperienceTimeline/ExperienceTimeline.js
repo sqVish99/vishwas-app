@@ -22,7 +22,6 @@ const ExperienceTimeline = () => {
           key={index}
           className="vertical-timeline-element--work"
           date={experience.date}
-          iconStyle={{ background: '#d7dbe8', color: 'bac4d6' }}
         >
           <h3 className="vertical-timeline-element-title">{experience.title}</h3>
           <p>{experience.description}</p>

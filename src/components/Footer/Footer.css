@@ -1,0 +1,15 @@
+.portfolio-footer {
+    height: 3rem;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    padding: 0 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+}

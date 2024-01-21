@@ -7,6 +7,33 @@
     font-weight: bold;
 }
 
+.vertical-timeline.vertical-timeline--two-columns:before {
+    background-color: darkgray;
+}
+
+.vertical-timeline-element-content {
+    background-color: #2f2929;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    -webkit-box-shadow: 0 3px 0 darkgray;
+    box-shadow: 0 3px 0 darkgray;
+}
+
+.vertical-timeline-element-icon {
+    background-color: darkgray;
+    -webkit-box-shadow: 0 0 0 4px darkgray, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+    box-shadow: 0 0 0 4px darkgray, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+}
+
+.vertical-timeline-element-content-arrow {
+    border-right-color: #2f2929;
+}
+
 .vertical-timeline-element-date {
-    color: darkgray;
+    color: white;
+    font-weight: bold !important;
+}
+
+.vertical-timeline-element-icon {
+    background-color: #2f2929;
 }
