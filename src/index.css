@@ -106,8 +106,8 @@ section {
 
 @media only screen and (max-width: 600px) {
   .container {
-    height: 85vh;
-    width: 85vw;
+    height: 80vh;
+    width: 80vw;
     padding: 1rem;
   }
 }

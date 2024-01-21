@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Reinforcement Learning for Language Models",
+        "description": "RL models for improving logical reasoning capabilities of Large Language Models",
+        "technologies": "RL, Python, TensorFlow, Generative AI"
+    },
+    {
+        "id": 2,
+        "title": "Food Decoder",
+        "description": "A Deep-Learning model to generate recipes from images with an accuracy of 80%",
+        "technologies": "Python, Web Development, Neural Networks"
+    },
+    {
+        "id": 3,
+        "title": "Atari Breakout",
+        "description": "A Reconstruction of the iconic brick and ball game by Atari",
+        "technologies": "OpenGL, Computer Graphics"
+    },
+    {
+        "id": 4,
+        "title": "Factory-Outlet Database System",
+        "description": "A comprehensive GUI tool creation and administration of orders and customer management.",
+        "technologies": "HTML, CSS, JavaScript, MongoDB, API"
+    }
+]
