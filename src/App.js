@@ -8,7 +8,7 @@ import Journey from './pages/Journey/Journey';
 import Footer from './components/Footer/Footer';
 
 const App = () => (
-  <HashRouter basename='vishwas-app'>
+  <HashRouter>
     <Header />
     <Routes>
       <Route path="/home" element={<Home />} />
