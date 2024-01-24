@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vishwas-app/static/css/main.eb84e5cc.css",
-    "main.js": "/vishwas-app/static/js/main.01d6cd3b.js",
-    "static/js/787.ee152503.chunk.js": "/vishwas-app/static/js/787.ee152503.chunk.js",
-    "static/media/Vishwas_Resume.pdf": "/vishwas-app/static/media/Vishwas_Resume.68d49029d39f2dadb2fc.pdf",
-    "static/media/linkedin.svg": "/vishwas-app/static/media/linkedin.2ca7b8070711a7e7849e1ae814e38151.svg",
-    "index.html": "/vishwas-app/index.html",
-    "static/media/email.svg": "/vishwas-app/static/media/email.64e2d59d7a00892661e951d283c203ed.svg",
-    "main.eb84e5cc.css.map": "/vishwas-app/static/css/main.eb84e5cc.css.map",
-    "main.01d6cd3b.js.map": "/vishwas-app/static/js/main.01d6cd3b.js.map",
-    "787.ee152503.chunk.js.map": "/vishwas-app/static/js/787.ee152503.chunk.js.map"
+    "main.css": "/vishwas-app/home/static/css/main.eb84e5cc.css",
+    "main.js": "/vishwas-app/home/static/js/main.16aa56a6.js",
+    "static/js/787.ee152503.chunk.js": "/vishwas-app/home/static/js/787.ee152503.chunk.js",
+    "static/media/Vishwas_Resume.pdf": "/vishwas-app/home/static/media/Vishwas_Resume.68d49029d39f2dadb2fc.pdf",
+    "static/media/linkedin.svg": "/vishwas-app/home/static/media/linkedin.2ca7b8070711a7e7849e1ae814e38151.svg",
+    "index.html": "/vishwas-app/home/index.html",
+    "static/media/email.svg": "/vishwas-app/home/static/media/email.64e2d59d7a00892661e951d283c203ed.svg",
+    "main.eb84e5cc.css.map": "/vishwas-app/home/static/css/main.eb84e5cc.css.map",
+    "main.16aa56a6.js.map": "/vishwas-app/home/static/js/main.16aa56a6.js.map",
+    "787.ee152503.chunk.js.map": "/vishwas-app/home/static/js/787.ee152503.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb84e5cc.css",
-    "static/js/main.01d6cd3b.js"
+    "static/js/main.16aa56a6.js"
   ]
 }
