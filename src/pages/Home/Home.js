@@ -21,7 +21,7 @@ const Home = () => (
           and spearheading impactful fundraising events. Proficient in a diverse array of cutting-edge programming languages
           and technologies, I bring a dynamic skill set to the table.
           Fluent in English, Hindi, and Kannada, I integrate technical expertise with strong communication and leadership skills.
-          Outside of tech, I enjoy going on long bicycle rides, hiking and reading books.
+          Outside of tech, I enjoy going on long bicycle rides, hiking, photography and reading books.
         </p>
       </div>
     </div>

@@ -8,6 +8,7 @@ const NavBar = ({ isOpen, closeMenu }) => (
             <li><Link to="/home" onClick={closeMenu}>Home</Link></li>
             <li><Link to="/journey" onClick={closeMenu}>My Journey</Link></li>
             <li><Link to="/projects" onClick={closeMenu}>Projects</Link></li>
+            <li><Link to="/photos" onClick={closeMenu}>Photos</Link></li>
         </ul>
     </nav>
 );
