@@ -31,7 +31,6 @@ const Cycling = () => {
                 <h1>My Cycling Stats!</h1>
                 <h2>My longest ride: {TruncateDecimal((data ? data.biggest_ride_distance : testData.biggest_ride_distance) * 0.621371 / 1000)} miles</h2>
                 <h2>My biggest climb: {TruncateDecimal((data ? data.biggest_climb_elevation_gain : testData.biggest_climb_elevation_gain) * 3.28084)} feet</h2>
-                <h3>Some cool stats...</h3>
                 <h3>Number of rides: {data ? data.all_ride_totals?.count : testData.all_ride_totals?.count}</h3>
                 <h3>Distance covered: {TruncateDecimal((data ? data.all_ride_totals?.distance : testData.all_ride_totals?.distance) * 0.621371 / 1000)} miles</h3>
                 <h3>Time indulged: {TruncateDecimal((data ? data.all_ride_totals?.moving_time : testData.all_ride_totals?.moving_time) / 3600)} hours</h3>
