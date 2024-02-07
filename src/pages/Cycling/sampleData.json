@@ -1,0 +1,26 @@
+{
+    "biggest_ride_distance": 105989.0,
+    "biggest_climb_elevation_gain": 320.90000000000003,
+    "recent_ride_totals": {
+        "count": 9,
+        "distance": 428977.349609375,
+        "moving_time": 67935,
+        "elapsed_time": 88871,
+        "elevation_gain": 1862.3242797851562,
+        "achievement_count": 234
+    },
+    "all_ride_totals": {
+        "count": 127,
+        "distance": 4652843,
+        "moving_time": 781255,
+        "elapsed_time": 955541,
+        "elevation_gain": 27804
+    },
+    "ytd_ride_totals": {
+        "count": 11,
+        "distance": 520094,
+        "moving_time": 83823,
+        "elapsed_time": 108955,
+        "elevation_gain": 2100
+    }
+}

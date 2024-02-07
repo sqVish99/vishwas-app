@@ -1,0 +1,22 @@
+.cycling-container {
+    overflow-y: auto;
+    gap: 1rem;
+}
+
+span {
+    display: flex;
+    gap: 0.4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+.strava-logo {
+    height: inherit;
+    background-color: lightgray;
+}
+
+.strava-link {
+    font-size: 1.4rem;
+    height: 1.4rem;
+}
