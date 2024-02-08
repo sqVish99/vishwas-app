@@ -13,11 +13,25 @@ span {
 
 .strava-logo {
     height: inherit;
-    background-color: lightgray;
     border-radius: 0.2rem;
 }
 
 .strava-link {
     font-size: 1.4rem;
     height: 1.4rem;
+    color: white;
+    font-weight: bold;
+}
+
+.container.cycling-container h1,
+.container.cycling-container h2,
+.container.cycling-container h3 {
+    color: darkgray;
+    font-weight: bold;
+}
+
+a.strava-link img.strava-logo {
+    background-color: #2f2929;
+    -webkit-box-shadow: 0 0 0 4px darkgray, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+    box-shadow: 0 0 0 4px darkgray, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
 }

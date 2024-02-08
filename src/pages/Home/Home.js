@@ -1,15 +1,15 @@
 import React from 'react';
 import './Home.css';
-import logo from '../../assets/images/logo192.png';
+// import logo from '../../assets/images/logo192.png';
 
 const Home = () => (
   <section id="Home">
     <div className="container">
       <h1>
         Hi there!
-        <div className="react-logo-container">
+        {/* <div className="react-logo-container">
           <img className="react-logo" src={logo} alt="React Logo" />
-        </div>
+        </div> */}
       </h1>
       <div className="about">
         <p className="about-thanks">Thank you for visting my page!</p>

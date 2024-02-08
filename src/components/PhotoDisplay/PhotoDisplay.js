@@ -1,26 +1,30 @@
 import React, { useState } from 'react';
 import './PhotoDisplay.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const PhotoDisplay = ({ images }) => {
-   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-   const nextImage = () => {
-      setCurrentImageIndex((currentImageIndex + 1) % images.length);
+   var settings = {
+     dots: true,
+     infinite: true,
+     speed: 200,
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     swipeToSlide: true,
+     autoplay: true,
+     autoplaySpeed: 2000,
    };
-
-   const prevImage = () => {
-      setCurrentImageIndex((currentImageIndex - 1 + images.length) % images.length);
-   };
-
+ 
    return (
-      <div className="photo-display">
-         <img className="displayed-image" src={images[currentImageIndex]} alt="" />
-         <div className="nav-buttons">
-            <button className="nav-button prev-button" onClick={prevImage}>&larr;</button>
-            <button className="nav-button next-button" onClick={nextImage}>&rarr;</button>
+     <Slider {...settings} className='slider'>
+       {images.map((image, index) => (
+         <div key={index}>
+           <img src={image} alt={`Image ${index + 1}`} />
          </div>
-      </div>
+       ))}
+     </Slider>
    );
-};
-
-export default PhotoDisplay;
+ };
+ 
+ export default PhotoDisplay;

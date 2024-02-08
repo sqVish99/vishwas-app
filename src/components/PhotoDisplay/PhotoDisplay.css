@@ -6,28 +6,28 @@
     overflow: hidden;
 }
 
-.displayed-image {
-    width: 90vw;
-    height: 90vh;
-    object-fit: cover;
+.slider {
+    max-width: 100%;
+    max-height: 100%;
     overflow: hidden;
 }
 
-.nav-buttons {
-    display: flex;
-    justify-content: space-between;
+.slider img {
     width: 100%;
+    height: auto;
 }
 
-.nav-button {
-    background-color: transparent;
-    border: none;
-    font-size: 2em;
-    color: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    transition: color 0.3s ease;
+.slick-prev {
+    z-index: 2;
+    left: 0.1rem !important;
 }
 
-.nav-button:hover {
-    color: rgba(0, 0, 0, 0.8);
+.slick-next {
+    z-index: 2;
+    right: 0.1rem !important;
+}
+
+.slick-dots {
+    z-index: 2;
+    bottom: 0 !important;
 }

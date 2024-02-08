@@ -18,13 +18,17 @@ const Header = () => {
         setNavOpen(!isNavOpen);
     };
 
+    const closeNav = () => {
+        setNavOpen(false);
+    };
+
     return (
         <header className="portfolio-header">
             <div className="header-content">
                 <div className="mobile-menu-toggle" onClick={toggleNav}>
                     ☰
                 </div>
-                <NavBar isOpen={isNavOpen} closeMenu={toggleNav}/>
+                <NavBar isOpen={isNavOpen} closeMenu={closeNav}/>
                 <a href={resumePDF} download="Vishwas_Resume.pdf" className="resume-link">↓ Resume</a>
             </div>
         </header>
