@@ -15,14 +15,12 @@ const PhotoDisplay = ({ images }) => {
    const prevImage = () => {
       setCurrentImageIndex((currentImageIndex - 1 + images.length) % images.length);
    };
-   
+
    const handleTouchStart = (e) => {
-      e.preventDefault();
       touchStartX.current = e.touches[0].clientX;
     };
     
     const handleTouchMove = (e) => {
-      e.preventDefault();
       if (!swipeHandled) {
         if (touchStartX.current - e.touches[0].clientX > 100) {
           nextImage();
@@ -34,8 +32,7 @@ const PhotoDisplay = ({ images }) => {
       }
     };
     
-    const handleTouchEnd = (e) => {
-      e.preventDefault();
+    const handleTouchEnd = () => {
       setSwipeHandled(false);
     };
 

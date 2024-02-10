@@ -113,12 +113,6 @@ section {
   }
 }
 
-@media (max-width: 575.98px) { 
-  body {
-    font-size: 14px;
-  }
-}
-
 @media (min-width: 992px) { 
   body {
     font-size: 18px;
