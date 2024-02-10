@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vishwas-app/static/css/main.879a668f.css",
-    "main.js": "/vishwas-app/static/js/main.57f60823.js",
+    "main.css": "/vishwas-app/static/css/main.a7f8559d.css",
+    "main.js": "/vishwas-app/static/js/main.8ebbbb18.js",
     "static/js/787.ee152503.chunk.js": "/vishwas-app/static/js/787.ee152503.chunk.js",
     "static/media/PXL_20230819_022845143.jpg": "/vishwas-app/static/media/PXL_20230819_022845143.e3493de644257bb63406.jpg",
     "static/media/PXL_20230817_020740876.jpg": "/vishwas-app/static/media/PXL_20230817_020740876.accc9907019c695bd049.jpg",
@@ -9,20 +9,16 @@
     "static/media/PXL_20230903_015519055.jpg": "/vishwas-app/static/media/PXL_20230903_015519055.dcdc909e2d5740411053.jpg",
     "static/media/Vishwas_Resume.pdf": "/vishwas-app/static/media/Vishwas_Resume.f90be0e36b00406565ec.pdf",
     "static/media/strava-logo.png": "/vishwas-app/static/media/strava-logo.299e85467e57e2f84de4.png",
-    "static/media/slick.svg": "/vishwas-app/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/vishwas-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/vishwas-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/vishwas-app/static/media/slick.295183786cd8a1389865.woff",
     "static/media/linkedin.svg": "/vishwas-app/static/media/linkedin.2ca7b8070711a7e7849e1ae814e38151.svg",
     "static/media/github.svg": "/vishwas-app/static/media/github.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/vishwas-app/index.html",
     "static/media/email.svg": "/vishwas-app/static/media/email.64e2d59d7a00892661e951d283c203ed.svg",
-    "main.879a668f.css.map": "/vishwas-app/static/css/main.879a668f.css.map",
-    "main.57f60823.js.map": "/vishwas-app/static/js/main.57f60823.js.map",
+    "main.a7f8559d.css.map": "/vishwas-app/static/css/main.a7f8559d.css.map",
+    "main.8ebbbb18.js.map": "/vishwas-app/static/js/main.8ebbbb18.js.map",
     "787.ee152503.chunk.js.map": "/vishwas-app/static/js/787.ee152503.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.879a668f.css",
-    "static/js/main.57f60823.js"
+    "static/css/main.a7f8559d.css",
+    "static/js/main.8ebbbb18.js"
   ]
 }
