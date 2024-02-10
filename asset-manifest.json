@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vishwas-app/static/css/main.e70ccf4d.css",
-    "main.js": "/vishwas-app/static/js/main.7edaf47c.js",
+    "main.js": "/vishwas-app/static/js/main.aab18180.js",
     "static/js/787.ee152503.chunk.js": "/vishwas-app/static/js/787.ee152503.chunk.js",
     "static/media/PXL_20230819_022845143.jpg": "/vishwas-app/static/media/PXL_20230819_022845143.e3493de644257bb63406.jpg",
     "static/media/PXL_20230817_020740876.jpg": "/vishwas-app/static/media/PXL_20230817_020740876.accc9907019c695bd049.jpg",
@@ -14,11 +14,11 @@
     "index.html": "/vishwas-app/index.html",
     "static/media/email.svg": "/vishwas-app/static/media/email.64e2d59d7a00892661e951d283c203ed.svg",
     "main.e70ccf4d.css.map": "/vishwas-app/static/css/main.e70ccf4d.css.map",
-    "main.7edaf47c.js.map": "/vishwas-app/static/js/main.7edaf47c.js.map",
+    "main.aab18180.js.map": "/vishwas-app/static/js/main.aab18180.js.map",
     "787.ee152503.chunk.js.map": "/vishwas-app/static/js/787.ee152503.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e70ccf4d.css",
-    "static/js/main.7edaf47c.js"
+    "static/js/main.aab18180.js"
   ]
 }
