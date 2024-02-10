@@ -1,30 +1,51 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './PhotoDisplay.css';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import Leftarrow from '../../assets/images/Leftarrow.js';
+import Rightarrow from '../../assets/images/Rightarrow.js';
 
 const PhotoDisplay = ({ images }) => {
-   var settings = {
-     dots: true,
-     infinite: true,
-     speed: 200,
-     slidesToShow: 1,
-     slidesToScroll: 1,
-     swipeToSlide: true,
-     autoplay: true,
-     autoplaySpeed: 2000,
+   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+   const [swipeHandled, setSwipeHandled] = useState(false);
+   const touchStartX = useRef(0);
+
+   const nextImage = () => {
+      setCurrentImageIndex((currentImageIndex + 1) % images.length);
    };
- 
+
+   const prevImage = () => {
+      setCurrentImageIndex((currentImageIndex - 1 + images.length) % images.length);
+   };
+   
+   const handleTouchStart = (e) => {
+      e.preventDefault();
+      touchStartX.current = e.touches[0].clientX;
+    };
+    
+    const handleTouchMove = (e) => {
+      e.preventDefault();
+      if (!swipeHandled) {
+        if (touchStartX.current - e.touches[0].clientX > 100) {
+          nextImage();
+          setSwipeHandled(true);
+        } else if (touchStartX.current - e.touches[0].clientX < -100) {
+          prevImage();
+          setSwipeHandled(true);
+        }
+      }
+    };
+    
+    const handleTouchEnd = (e) => {
+      e.preventDefault();
+      setSwipeHandled(false);
+    };
+
    return (
-     <Slider {...settings} className='slider'>
-       {images.map((image, index) => (
-         <div key={index}>
-           <img src={image} alt={`Image ${index + 1}`} />
-         </div>
-       ))}
-     </Slider>
+      <div className="photo-display" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove} onTouchEnd={handleTouchEnd}>
+         <button className="nav-button prev-button" onClick={prevImage}><Leftarrow /></button>
+         <img className="displayed-image" src={images[currentImageIndex]} alt="" />
+         <button className="nav-button next-button" onClick={nextImage}><Rightarrow /></button>
+      </div>
    );
- };
- 
- export default PhotoDisplay;
+};
+
+export default PhotoDisplay;

@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 code {
@@ -109,5 +110,17 @@ section {
     height: 80vh;
     width: 80vw;
     padding: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) { 
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) { 
+  body {
+    font-size: 18px;
   }
 }
