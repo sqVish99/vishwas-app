@@ -4,6 +4,7 @@ import email from "../../assets/images/email.svg";
 import linkedin from "../../assets/images/linkedin.svg";
 import github from "../../assets/images/github.svg";
 import blog from "../../assets/images/blog.png";
+import letterwriter from "../../assets/images/letterwriter.png";
 
 const Footer = () => {
   return (
@@ -34,6 +35,14 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img src={blog} className="footer-logo" alt="Blog" />
+        </a>
+        <a
+          className="dark-icon"
+          href="https://sqvish99.github.io/ai-letter-writer/#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={letterwriter} className="footer-logo" alt="AILW" />
         </a>
       </div>
     </div>
